@@ -4,4 +4,6 @@ project(partie_programmation C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(partie_programmation
-        main.c)
+        main.c
+        htmlexport.c
+        htmlexport.h)
