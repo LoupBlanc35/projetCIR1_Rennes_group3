@@ -1,0 +1,3 @@
+/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/CMakeFiles/partie_programmation.dir
+/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -21,3 +21,14 @@ int titreHTMLPerson(char* buffer, Person* p){
     int m = titreHTMLPerson(buffer, &jeanDupont);
     printf("%s %d characters written \n\n", buffer, m);
 }
+/*
+    FILE *output_file;
+    if ((output_file = fopen("fichier.html", "w" )) == NULL)
+    {
+       fprintf(stderr, "Cannot open %s\n", "output_file" );
+    }
+    else
+    {
+       fprintf(output_file, "<html>\n\tHello World !</html>\n" );
+    }
+*/
