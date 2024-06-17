@@ -1,17 +1,30 @@
 #include <stdio.h>
+#include <string.h>
 #include "htmlexport.h"
 
-int sprintf(char* buffer, const char* format){
-    FILE* file = fopen("file", "w");
-    char buffer[20];
-    int nb_characters = 0; //count the number of printed characters
-    int index = nb_characters; //index indicates the position where it prints in the buffer
-    nb_characters += sprintf(buffer + index, "hello");//update current index
-    index = nb_characters += sprintf(buffer + index, " world");
 
-    printf("%d caracteres ecrits : %s \n", nb_characters, buffer);
+int ouverture_fichier(char* buffer, const char* format){
+    FILE* fichier;
+    fichier = fopen("40.csv", "r");
+    if (fichier == NULL) {
+        printf("Pas d'ouverture du fichier !\n");
+        return EXIT_FAILURE;
+    }
+    if (fichier != NULL) {
+        while(fgets(buffer, 256, fichier) != NULL) {
+            printf("%s", buffer);
+            buffer[strlen(buffer)-1]= '\0';
+        }
+        fclose(fichier);
+    }
+    return 0;
 }
 
+int titreHTMLPerson(char* buffer, Person* p){
+    fgets(buffer, 256, ouverture_fichier(char* buffer, const char* format))
+}
+
+/*
 int titreHTMLPerson(char* buffer, Person* p){
     Person jeanDupont;
     sprintf(jean.Dupont.firstname, "Jean");
@@ -20,7 +33,7 @@ int titreHTMLPerson(char* buffer, Person* p){
     char buffer[255];
     int m = titreHTMLPerson(buffer, &jeanDupont);
     printf("%s %d characters written \n\n", buffer, m);
-}
+}*/
 /*
     FILE *output_file;
     if ((output_file = fopen("fichier.html", "w" )) == NULL)
