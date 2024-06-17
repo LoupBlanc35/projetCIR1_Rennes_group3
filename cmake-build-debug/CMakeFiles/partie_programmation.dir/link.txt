@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/partie_programmation.dir/main.c.o CMakeFiles/partie_programmation.dir/htmlexport.c.o -o partie_programmation 

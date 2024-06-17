@@ -13,4 +13,6 @@ add_executable(PROJET_C main.c
         filemanager.h
         advanced.c
         advanced.h
+        htmlexport.h
+        htmlexport.c
 )
