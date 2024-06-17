@@ -3,11 +3,9 @@
 
 #include "person.h"
 
-#define EXIT_FAILURE -1
-
-int ouverture_fichier(char* buffer);
+FILE * ouverture_fichier(char* buffer);
 int titreHTMLPerson(char* buffer, Person* p);
-int sprintf(char* buffer, const char *format);
+int lecture(char* buffer, const char *format);
 /*
 int fichePath( char* buffer, Person* p);
 void exportPersonToHTML(const Population t, Person* p, char* path);

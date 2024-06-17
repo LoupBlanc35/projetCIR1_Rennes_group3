@@ -1,5 +1,6 @@
 ﻿#include <stdio.h>
 #include "advanced.h"
+#include "htmlexport.h"
 int main() {
     Population population;
     population= read_csv("../40.csv");
@@ -7,4 +8,10 @@ int main() {
     for (int i=0;i<population.taille;i++)
         printf("%d %s\n",i,population.pers[i].p_mere->prenom);
     return 0;
+
+    Person *p1;
+    titreHTMLPerson("40.csv", p1);
+
+
+    //AIDE : https://www.guru99.com/fr/c-file-input-output.html
 }
