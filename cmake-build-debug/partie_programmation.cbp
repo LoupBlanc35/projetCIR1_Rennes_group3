@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="partie_programmation">
-				<Option output="/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/partie_programmation" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/partie_programmation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,15 +30,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 partie_programmation"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 partie_programmation"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="partie_programmation/fast">
-				<Option output="/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/partie_programmation" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/partie_programmation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -49,43 +49,43 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 partie_programmation/fast"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 partie_programmation/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Utilisateur/OneDrive\ -\ yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/htmlexport.c">
+		<Unit filename="/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/htmlexport.c">
 			<Option target="partie_programmation"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/htmlexport.h">
+		<Unit filename="/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/htmlexport.h">
 			<Option target="partie_programmation"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/main.c">
+		<Unit filename="/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/main.c">
 			<Option target="partie_programmation"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Utilisateur/OneDrive - yncréa/Bureau/projetCIR1_Rennes_group3-information/partie_programmation/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/jejed/CLionProjects/projetCIR1_Rennes_group3/COPY/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
