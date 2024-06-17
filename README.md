@@ -1,6 +1,12 @@
 # projetCIR1_Rennes_group3
 
 importer les librairies :
- -> stdio.h
+ 
+-> stdio.h 
+
  -> stdlib.h
+
  -> string.h
+
+ -> math.h
+ 
