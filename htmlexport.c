@@ -3,8 +3,6 @@
 #include "htmlexport.h"
 #include "advanced.h"
 
-
-
 FILE * ouverture_fichier(char* buffer){
     FILE* fichier;
     fichier = fopen("40.csv", "r");
