@@ -10,3 +10,4 @@ importer les librairies :
 
  -> math.h
  
+Acceptation de fichier avec 40 personnes
