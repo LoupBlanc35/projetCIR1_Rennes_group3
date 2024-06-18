@@ -8,18 +8,17 @@
 FILE * ouverture_fichier(char* buffer){
     FILE* fichier;
     fichier = fopen("40.csv", "r");
-    /*if (fichier == NULL) {
-        printf("Pas d'ouverture du fichier !\n");
-        return (FILE *) -1;
-    }
-    */
-
     if (fichier != NULL) {
         while(fgets(buffer, 256, fichier) != NULL) {
             printf("%s", buffer);
             buffer[strlen(buffer)-1]= '\0';
         }
         fclose(fichier);
+    }
+
+    if (fichier == NULL) {
+        printf("Pas d'ouverture du fichier !\n");
+        return (FILE *) -1;
     }
     return 0;
 }
