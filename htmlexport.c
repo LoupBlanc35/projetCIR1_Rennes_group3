@@ -1,15 +1,19 @@
 #include <stdio.h>
 #include <string.h>
 #include "htmlexport.h"
+#include "advanced.h"
 
 
-int ouverture_fichier(char* buffer, const char* format){
+
+FILE * ouverture_fichier(char* buffer){
     FILE* fichier;
     fichier = fopen("40.csv", "r");
-    if (fichier == NULL) {
+    /*if (fichier == NULL) {
         printf("Pas d'ouverture du fichier !\n");
-        return EXIT_FAILURE;
+        return (FILE *) -1;
     }
+    */
+
     if (fichier != NULL) {
         while(fgets(buffer, 256, fichier) != NULL) {
             printf("%s", buffer);
@@ -20,31 +24,35 @@ int ouverture_fichier(char* buffer, const char* format){
     return 0;
 }
 
-int titreHTMLPerson(char* buffer, Person* p){
-    fgets(buffer, 256, ouverture_fichier(char* buffer, const char* format))
+int lecture(char* buffer, const char *format){
+    int nb_characters = 0; //count the number of printed characters
+    int index = nb_characters; //index indicates the position where it prints in the buffer
+    nb_characters += lecture(buffer + index, "r");
+    index = nb_characters;
+    nb_characters += lecture(buffer + index, "r");
+    printf("%d caracteres ecrits : %s\n", nb_characters, buffer);
 }
 
-/*
 int titreHTMLPerson(char* buffer, Person* p){
-    Person jeanDupont;
-    sprintf(jean.Dupont.firstname, "Jean");
-    sprintf(jean.Dupont.lastname, "Dupont");
+    Person p1;
+    fgets(buffer, 256, ouverture_fichier("40.csv"));
+    lecture(p1.prenom, "r");
+    lecture(p1.nom, "r");
     //AFFICHAGE d'un element HTML pour 3
-    char buffer[255];
-    int m = titreHTMLPerson(buffer, &jeanDupont);
+    int m = titreHTMLPerson(buffer, &p1);
     printf("%s %d characters written \n\n", buffer, m);
-}*/
-/*
-    FILE *output_file;
-    if ((output_file = fopen("fichier.html", "w" )) == NULL)
+
+    char debut[]="<!DOCTYPE>\n xml:lang='fr' lang='fr'>\n<head>\n<title>\nArbre Généalogique\n</title>\n<meta http-equiv='Content-Type'  content='text/html;charset=utf-8' />\n<link rel='stylesheet' media='screen' type='text/css' title='arbre_genealogique' href='arbre.css' />\n</head>\n<body>\n<h1>Arbre Généaloqique<br/></h1>\n<table>\n";
+    char fin[]="</tr>\n</table>\n</body>\n</html>\n";
+
+    FILE* pfichier = fopen("arbre.htlm","r");
+    if(pfichier == NULL)
     {
-       fprintf(stderr, "Cannot open %s\n", "output_file" );
+        fclose(pfichier);
+        FILE* pfichier = fopen("arbre.htlm","a+");
+        fprintf(pfichier,"%s",debut);
     }
-    else
-    {
-       fprintf(output_file, "<html>\n\tHello World !</html>\n" );
-    }
-*/
+}
 
 /*
 #include <stdio.h>

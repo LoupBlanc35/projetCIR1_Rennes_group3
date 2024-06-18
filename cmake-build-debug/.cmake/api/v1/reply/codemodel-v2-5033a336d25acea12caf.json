@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "partie_programmation",
+					"name" : "PROJET_C",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "partie_programmation::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-partie_programmation-Debug-1921966014fd1c7d9d9a.json",
-					"name" : "partie_programmation",
+					"id" : "PROJET_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PROJET_C-Debug-f7daadc188d839bde3e6.json",
+					"name" : "PROJET_C",
 					"projectIndex" : 0
 				}
 			]
